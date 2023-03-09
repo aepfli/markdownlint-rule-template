@@ -2,7 +2,7 @@
 
 A template to easily generate rules for [markdownlint](https://github.com/davidAnson/markdownlint).
 
-If you want to use it, 
+If you want to use it,
 
 1. fork it, copy it, etc.
 2. take a look at the TODOs
@@ -22,9 +22,6 @@ If you want to use it,
 > Adapt everything based on your needs.
 > This should help with an initial project setup.
 
-> **Note**
-> Feedback is always welcome
-
 ## Overview
 
 This section should be used to shortly describe this plugin
@@ -40,9 +37,9 @@ npm install <rulename> --save-dev
 
 ## Configuration
 
-Tags: <tags>
+Tags: `<tags>`
 
-Parameters: <parameters>
+Parameters: `<parameters>`
 
 ```diff
 Example of what this rule should do.

@@ -7,8 +7,10 @@
   "ignores": [
     "test/",
     "node_modules/"
-  ],
-  "customRules": [
+  ]
+  /*
+   "customRules": [
     "./rule.js"
   ]
+  */
 }

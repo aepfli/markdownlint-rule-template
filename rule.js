@@ -3,6 +3,7 @@
 "use strict";
 
 module.exports = {
+  // eslint-disable-next-line no-warning-comments
   // TODO Adapt here
   "names": [ "<names>" ],
   "description": "<description>",
@@ -11,21 +12,23 @@ module.exports = {
   ),
   "tags": [ "<tags>" ],
   "function": (params, onError) => {
-    //TODO Add Logic Here
+    // eslint-disable-next-line no-warning-comments
+    // TODO Add Logic Here
     onError({
       "lineNumber": 16,
       "detail": null,
-      // eslint-disable-next-line max-len
+
       "context": "you need to configure your rule",
-      "range": [ 1, 1 ],
-      /*
-      "fixInfo": {
-        "lineNumber": lineNumber,
-        "editColumn": column,
-        "deleteCount": length,
-        "insertText": replacement
-      }
-      */
+      "range": [ 1, 1 ]
+
+      //
+      // "fixInfo": {
+      // "lineNumber": lineNumber,
+      // "editColumn": column,
+      // "deleteCount": length,
+      // "insertText": replacement
+      // }
+      //
     });
   }
 };

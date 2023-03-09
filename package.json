@@ -1,5 +1,5 @@
 {
-  "name": "<add the name here>",
+  "name": "markdownlint-rule-todo-name",
   "version": "0.0.2",
   "description": "<add a description here>",
   "main": "./rule.js",
